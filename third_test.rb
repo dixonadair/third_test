@@ -3,3 +3,5 @@ multiples_of_3 = Proc.new do |n|
 end
 
 (1..100).to_a.select(&multiples_of_3)
+
+"This is just a sentence I'm adding."
